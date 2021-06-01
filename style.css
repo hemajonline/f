@@ -1,0 +1,45 @@
+body{
+  background: #333;
+}
+#a{
+  width:100%;
+  background-color: green;
+}
+#a img[src="ab.jpg"]{
+  float: right;
+}
+#b{
+  display: inline-block;
+  float: left;
+  height: 100px;
+  width: 100px;
+  background: url(ba.jpg);
+  background-size:cover;
+}
+#c{
+  float: left;
+width: 177px;
+  height:100px;
+}
+#g img[src="Ball.jpg"]{
+  margin-top:60px;
+  height:10px;
+  width: 10px;
+  position: relative;
+  animation-name: rm;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rm{
+  0%{left: -20px;}
+  25%{left: 40px;}
+  50%{left: 100px;}
+  75%{left: 160px;}
+  100%{left: 215px;}
+}
+#aa{
+  padding-top: 49px;
+  padding-left: 70px;
+}
